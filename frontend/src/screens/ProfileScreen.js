@@ -5,7 +5,6 @@ import Message from "../components/Message";
 import Loader from "../components/Loader";
 import { getUserDetails, updateUserProfile } from "../actions/userAction";
 import { USER_UPDATE_PROFILE_RESET } from "../constants/usersConstants";
-import { disable } from "colors";
 
 const ProfileScreen = ({ location, history }) => {
   const [email, setEmail] = useState("");
