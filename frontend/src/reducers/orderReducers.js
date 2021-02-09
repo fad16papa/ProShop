@@ -103,7 +103,7 @@ export const orderListClientReducer = (state = { orders: [] }, action) => {
       };
     case ORDER_LIST_CLIENT_RESET:
       return {
-        orders: {},
+        orders: [],
       };
     default:
       return state;
